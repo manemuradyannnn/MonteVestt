@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { LineChart, Line, BarChart, Bar, ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart, Cell } from 'recharts';
-import { TrendingUp, AlertCircle, DollarSign, Activity, BarChart3, Shield, Target, Search } from 'lucide-react';
+import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart, Cell } from 'recharts';
+import { TrendingUp, DollarSign, Activity, BarChart3, Shield, Target, Search } from 'lucide-react';
+
 
 const StockMonteCarloUI = () => {
   const [ticker, setTicker] = useState('ASML');
